@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/../http4k-connect" name="http4k-connect">
+                <projects>
+                  <project path="$PROJECT_DIR$/../http4k-connect" />
+                  <project path="$PROJECT_DIR$/../http4k-connect/bom" />
+                  <project path="$PROJECT_DIR$/../http4k-connect/core/client" />
+                  <project path="$PROJECT_DIR$/../http4k-connect/core/fake" />
+                  <project path="$PROJECT_DIR$/../http4k-connect/github/client" />
+                  <project path="$PROJECT_DIR$/../http4k-connect/github/fake" />
+                  <project path="$PROJECT_DIR$/../http4k-connect/http4k-connect-ksp-generator" />
+                  <project path="$PROJECT_DIR$/../http4k-connect/storage/core" />
+                  <project path="$PROJECT_DIR$/../http4k-connect/storage/http" />
+                  <project path="$PROJECT_DIR$/../http4k-connect/storage/jdbc" />
+                  <project path="$PROJECT_DIR$/../http4k-connect/storage/redis" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/../http4k-connect/buildSrc" name="buildSrc">
+                <projects>
+                  <project path="$PROJECT_DIR$/../http4k-connect/buildSrc" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/../magik" name="magik">
+                <projects>
+                  <project path="$PROJECT_DIR$/../magik" />
+                  <project path="$PROJECT_DIR$/../magik/plugin" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../http4k-connect" />
+            <option value="$PROJECT_DIR$/../http4k-connect/bom" />
+            <option value="$PROJECT_DIR$/../http4k-connect/buildSrc" />
+            <option value="$PROJECT_DIR$/../http4k-connect/core/client" />
+            <option value="$PROJECT_DIR$/../http4k-connect/core/fake" />
+            <option value="$PROJECT_DIR$/../http4k-connect/github/client" />
+            <option value="$PROJECT_DIR$/../http4k-connect/github/fake" />
+            <option value="$PROJECT_DIR$/../http4k-connect/http4k-connect-ksp-generator" />
+            <option value="$PROJECT_DIR$/../http4k-connect/storage/core" />
+            <option value="$PROJECT_DIR$/../http4k-connect/storage/http" />
+            <option value="$PROJECT_DIR$/../http4k-connect/storage/jdbc" />
+            <option value="$PROJECT_DIR$/../http4k-connect/storage/redis" />
+            <option value="$PROJECT_DIR$/../magik" />
+            <option value="$PROJECT_DIR$/../magik/plugin" />
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
