@@ -20,9 +20,7 @@ tasks.test { useJUnitPlatform() }
 
 kotlin.jvmToolchain(17)
 
-magik {
-    verbose = true
-}
+magik { verbose = true }
 
 publishing {
     publications {
